@@ -1,0 +1,31 @@
+/*body {*/
+/*    font-size: 2em;*/
+/*    font-family: sans-serif;*/
+/*}*/
+
+.animation {
+    vertical-align: sub;
+    height: 1em;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 2em;
+}
+
+.info-ul{
+    animation: animation 10s infinite;
+    padding: 0;
+    margin-top: -0.55em;
+    list-style: none;
+}
+
+@keyframes animation {
+    0%        { margin-top: -0.55em }
+    12.5%     { margin-top: -2.54em }
+    25%       { margin-top: -4.55em }
+    37.5%     { margin-top: -6.55em }
+    50%       { margin-top: -8.5em }
+    62.5%     { margin-top: -6.55em }
+    75%       { margin-top: -4.55em }
+    87.5%     { margin-top: -2.54em }
+    100%      { margin-top: -0.55em }
+}

@@ -1,0 +1,37 @@
+/*#Language-bar {*/
+/*    width: 20px;*/
+/*    list-style: none;*/
+/*    display: inline-block;*/
+/*}*/
+.lang-li {
+    display: flex;
+
+}
+.lang-a {
+margin-right: 5px;
+}
+
+.border-lang{
+    border-right: 2px solid #000000;
+    margin-right: 3px;
+}
+.lang-h2{
+    font-size: 19px;
+    color: #000000;
+}
+
+.adapt-icone{
+    font-size: 36px;
+}
+.color-a{
+    color: #000000;
+}
+.bg-size{
+    height: 60px;
+    background: #f8df0c;
+}
+.ittoday{
+    color: #f8df0c;
+    font-size: 20px;
+}
+

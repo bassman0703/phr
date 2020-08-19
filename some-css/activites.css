@@ -1,0 +1,12 @@
+
+.wdd-content .wdd-item {
+    width: 31.6%;
+    margin-right: 2.6%;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #d3d4d5;
+    transition: all .25s linear;
+    cursor: pointer;
+    height: 100px;
+    position: relative;
+    float: left;
+}
