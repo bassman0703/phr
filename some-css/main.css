@@ -1,6 +1,6 @@
 html {
     line-height: 1.15;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -2387,7 +2387,6 @@ form {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    background: url(../img/info-icon.png) no-repeat;
     background-size: 100%;
     border-radius: 50%;
     width: 28px;

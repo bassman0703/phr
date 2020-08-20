@@ -37,7 +37,6 @@ function renderDate() {
     ];
 
     document.getElementById("icalendarMonth").innerHTML = months[dt.getMonth()] + " , " + dt.getFullYear();
-    document.getElementById("icalendarDateStr").innerHTML = dateString.toDateString();
 
     let cells = "";
     let countDate = 0;
