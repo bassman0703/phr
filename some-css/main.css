@@ -1174,7 +1174,12 @@ ul.page-menu .nav-item ul li .nav-link {
     font-size: 20px;
 
 }
-
+.calendar-events {
+    background: #000 !important;
+    font-family: bpg-extra;
+    font-size: 16px;
+    padding: 0.9rem 1.35rem
+}
 .card--blog-post .card-title {
     color:#000;
     font-size: 14px;
