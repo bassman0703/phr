@@ -294,7 +294,7 @@ p {
 a:focus,
 a:hover {
     text-decoration: none;
-    color:#ffffff;
+    color:#000000 ;
 }
 
 button {
@@ -1172,7 +1172,7 @@ ul.page-menu .nav-item ul li .nav-link {
 }
 
 .card--blog-post .card-title {
-    /*color:#000;*/
+    color:#000;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: -.5px;
@@ -1277,9 +1277,16 @@ ul.page-menu .nav-item ul li .nav-link {
 
 .card-related-post .card-text {
     font-size: 12px;
-    margin-bottom: 7px
+    margin-bottom: 7px;
 }
+.h5-title{
+    font-weight: bold;
+    color: #000000;
 
+}
+a.h5-title :hover{
+color: #000000;
+}
 @media (max-width: 767px) {
     .card-related-post img {
         margin-bottom: 20px
@@ -1627,7 +1634,7 @@ ul.page-menu .nav-item ul li .nav-link {
     padding: 10px 25px;
 }
 
-.single-tribe_events .tribe-events-cal-links a:hover {
+.single-tribe_events .tribe-events-cal-links  {
     color: #fff;
     padding: 10px 25px;
 }
@@ -3002,12 +3009,12 @@ table td {
 .page-header .page-header-submenu ul li a:focus,
 .page-header .page-header-submenu ul li a:hover {
     opacity: 1;
-    background: #730101
+    background: #000000;
 }
 
 .page-header .page-header-submenu ul li.active a {
     opacity: 1;
-    background: #730101
+    background: #000000;
 }
 
 @media (max-width: 600px) {
@@ -3758,7 +3765,7 @@ article.article .simple-list li:before {
     font-family: Icons;
 }*/
 .sidebar ul li a:hover {
-    color: #af0101;
+    color: #000000;
 }
 
 @media (max-width: 1199px) {
@@ -4407,7 +4414,7 @@ article.article .simple-list li:before {
 }
 
 .block--recent-event .recent-events-list .item a:hover, .block--recent-event .recent-events-list .item h3:hover{
-    color: #730101;
+    color: #000000;
 }
 
 .block--recent-event .recent-events-list .item p {
@@ -5177,7 +5184,7 @@ article.article .simple-list li:before {
 
 .block--comments .card-action a:hover {
 
-    color: #af0101
+    color: #000000;
 }
 
 
@@ -5292,7 +5299,6 @@ article.article .simple-list li:before {
 }
 
 .comment-respond input#submit:hover {
-    color: #fff;
     background: #000000;
 }
 
@@ -6049,7 +6055,7 @@ main {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #fff;
+    color: #000000;
     border-radius: 4px;
     padding: .8rem 3.25rem;
     -webkit-transition: all .3s ease-in-out;
@@ -6064,7 +6070,6 @@ main {
 }
 
 .error-page a:hover {
-    color: #fff;
     /*background: #000000;*/
 }
 
@@ -6161,11 +6166,9 @@ a.event-viewmore:hover:before{
     top: -12px;
     z-index: 10;
     -webkit-transition: -webkit-transform .25s ease-in-out;
-    transition: transform .25s ease-in-out;
-    transition: transform .25s ease-in-out,-webkit-transform .25s ease-in-out;
-    transform: translate(-50%, -50%);
+
     -webkit-transform: scale(1);
-    transform: scale(1);
+
 }
 
 .block--main .related-posts .card-related-post:hover .play-icon {
