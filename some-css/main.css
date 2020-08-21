@@ -1170,6 +1170,10 @@ ul.page-menu .nav-item ul li .nav-link {
 .card--blog-post .card-body {
     padding: 0 0 0 5px
 }
+.pagination-size{
+    font-size: 20px;
+
+}
 
 .card--blog-post .card-title {
     color:#000;
