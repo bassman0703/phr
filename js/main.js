@@ -212,5 +212,8 @@
         });
 
     }
-
+// donation
+    $("#donation-btn").click(function() {
+        window.location.href = 'donation.html';
+    });
 })(window.jQuery);
