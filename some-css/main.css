@@ -2612,7 +2612,7 @@ form {
 }
 
 .tabs .nav-link.active {
-    /*color:#000;*/
+    color:#000;
     border: none;
     font-weight: 600
 }
