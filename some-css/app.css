@@ -5,7 +5,11 @@
   display: block;
 }
 
-
+@media screen and (max-width: 1190px){
+  .wdd-text{
+    margin-left: 20px;
+  }
+}
 
 
 .wdd-content .container {
