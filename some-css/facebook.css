@@ -1,0 +1,27 @@
+/*.dafb {*/
+/*    background-color: #F4F4F4;*/
+/*    border-radius: 3px 3px 3px 3px;*/
+/*    height: 150px;*/
+/*    padding: 5px 10px 15px 0;*/
+/*    position: relative;*/
+/*    width: 280px;*/
+/*}*/
+/*.dafb, .dafb:before, .dafb:after {*/
+/*    background: none repeat scroll 0 0 #F4F4F4;*/
+/*    border: 1px solid #CCCCCC;*/
+/*}*/
+/*.dafb:before, .dafb:after {*/
+/*    border-top: medium none;*/
+/*    bottom: -3px;*/
+/*    content: "";*/
+/*    height: 1px;*/
+/*    left: 2px;*/
+/*    position: absolute;*/
+/*    right: 2px;*/
+/*}*/
+/*.dafb:after {*/
+/*    bottom: -5px;*/
+/*    box-shadow: 10 10 5px #CCCCCC;*/
+/*    left: 8px;*/
+/*    right: 4px;*/
+/*}*/
