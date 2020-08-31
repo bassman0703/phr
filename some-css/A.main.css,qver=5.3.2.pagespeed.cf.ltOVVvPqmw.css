@@ -5032,3 +5032,7 @@ a.event-viewmore:hover:before {
     -webkit-transform: scale(1.2);
     transform: scale(1.2)
 }
+
+.adjust-background .brand-text p {
+    color: #ffffff;
+}
