@@ -5036,3 +5036,6 @@ a.event-viewmore:hover:before {
 .adjust-background .brand-text p {
     color: #ffffff;
 }
+.adjust-background .sidebar ul li {
+    font-size: 25px;
+}
