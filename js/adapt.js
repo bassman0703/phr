@@ -336,8 +336,8 @@ jQuery(document).ready(function ($) {
     var isMuted = false;
     var microphoneOn = '/themes/images/microphone.svg';
     var microphoneOff = '/themes/images/microphone-muted.svg';
-    var elements = ['.news_title', '.logo a', '.slogan', '.nav-item' , '.info-ul li', 'block-header', '.donate-btn','.card-title h5', '.carousel-caption']
-    $('body').on('focus', elements.join(','), function (e) {
+    var elements = ['.news_title', '.logo a', '.slogan', '.nav-item' , '.info-ul li', 'block-header', '.donate-btn','.card-title h5', '.block-header .espeaker' ,'tile-box-content h2 a', '.card-title','.card-text a','.speaker','.article-body']
+    $('body').on('mouseover', elements.join(','), function (e) {
         var text = e.target.title || e.target.innerText;
 
         if (isLoaded && !isMuted) {
